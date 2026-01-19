@@ -1,16 +1,41 @@
 using System;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class GameDirector : MonoBehaviour
 {
+    //Resources
     public float Scoring;
-    public int Money;
-    
+    public float Money;
     private Vector3 Score;
-    public TMPro.TextMeshProUGUI ScoreText;
-
-
+    private float BestScore = 0f;
+    
     public LaunchBrick launchBrick;
+    
+    //TMP
+    public TMPro.TextMeshProUGUI ScoreText;
+    public TMPro.TextMeshProUGUI BestScoreText;
+    public TMPro.TextMeshProUGUI MoneyText;
+
+    //UI
+    public GameObject RestartUI;
+    public GameObject UpgradeUI;
+    public GameObject MainMenuUI;
+    public GameObject LevelSelectionUI;
+    public GameObject GameCanvaUI;
+    
+
+    //Button
+    public Button Upgrade1;
+    [SerializeField] public float requirement1;
+    public Button Upgrade2;
+    [SerializeField] public float requirement2;
+    public Button Upgrade3;
+    [SerializeField] public float requirement3;
+
+    public GameObject PlayerInteractable;
+    
     
 
     private void Update()
@@ -22,6 +47,84 @@ public class GameDirector : MonoBehaviour
         Scoring = Mathf.Floor(Scoring);
         
         ScoreText.text = Scoring.ToString();
+        
+
+
+        // Upgrade 1 Button
+        if (Money < requirement1)
+        {
+            Upgrade1.interactable = false;
+        }
+        else
+        {
+            Upgrade1.interactable = true;
+        }
+
+        // Upgrade 2 Button
+        if (Money < requirement2)
+        {
+            Upgrade2.interactable = false;
+        }
+        else
+        {
+            Upgrade2.interactable = true;
+        }
+
+        // Upgrade 3 Button
+        if (Money < requirement3)
+        {
+            Upgrade3.interactable = false;
+        }
+        else
+        {
+            Upgrade3.interactable = true;
+        }
+        
+        
     }
+
+
+    public void RestartGame()
+    {
+        // Check if replace BestScore
+        if (Score.x > BestScore)
+        {
+            BestScoreText.text = ScoreText.text; 
+            BestScore = Score.x;
+        }
+        
+        //Assign Money
+        Money += Scoring / 10f;
+        MoneyText.text = Money.ToString();
+        
+        // Restart Brick Position and rotation
+        launchBrick.transform.position = launchBrick.startPos;
+        launchBrick.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        launchBrick.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionZ;
+        launchBrick.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
+        launchBrick.GetComponent<Rigidbody>().useGravity = false;
+        
+        // Manipulate UI
+        RestartUI.SetActive(false);
+        UpgradeUI.SetActive(true);
+        
+    }
+
+    
+
+    public void goToLevelSelection()
+    {
+        MainMenuUI.SetActive(false);
+        LevelSelectionUI.SetActive(true);
+    }
+    
+    public void StartGame()
+    {
+        LevelSelectionUI.SetActive(false);
+        GameCanvaUI.SetActive(true);
+        PlayerInteractable.SetActive(true);
+    }
+    
+    
 
 }
