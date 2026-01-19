@@ -4,11 +4,11 @@ using UnityEngine.UI;
 public class LaunchBrick : MonoBehaviour
 {
     public float impulseForce;
-    private float impulseForceBasic = 10f;
+    private float impulseForceBasic = 5f;
     public Vector2 impulseDirection;
     private float keyDownTime = 0f;
     private bool isKeyHeld = false;
-    private float jaugeTime = 1f;
+    private float jaugeTime = 0.8f;
 
     public float maxForce;
     
@@ -29,6 +29,7 @@ public class LaunchBrick : MonoBehaviour
     {
         startPos = transform.position;
         Debug.Log(startPos);
+        impulseForce = impulseForceBasic;
     }
     
     void Update()
@@ -51,11 +52,10 @@ public class LaunchBrick : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Space) && isKeyHeld)
         {
-            JaugetoDisappear.SetActive(false);
-            float heldDuration = (Time.time - keyDownTime)* 10f;
+            float heldDuration = (Time.time - keyDownTime)* 5f;
             isKeyHeld = false;
             
-            
+            JaugetoDisappear.SetActive(false);
             impulseForce *= heldDuration;
             Debug.Log(heldDuration);
             if (impulseForce > maxForce)
@@ -89,21 +89,10 @@ public class LaunchBrick : MonoBehaviour
         Debug.Log(_gameDirector.Money);
         _gameDirector.Money -= _gameDirector.requirement1;
         _gameDirector.MoneyText.text = _gameDirector.Money.ToString();
-    }
-
-    public void UpgradeMaxReach()
-    {
         maxForce += 5;
         Debug.Log(maxForce);
         _gameDirector.Money -= _gameDirector.requirement2;
         _gameDirector.MoneyText.text = _gameDirector.Money.ToString();
     }
-
-    public void UpgradeAngle()
-    {
-        _gameDirector.Money -= _gameDirector.requirement3;
-        _gameDirector.MoneyText.text = _gameDirector.Money.ToString();
-    }
-    
     
 }
