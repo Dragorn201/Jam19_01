@@ -31,6 +31,8 @@ public class GameDirector : MonoBehaviour
     [SerializeField] public float requirement1;
     public Button Upgrade2;
     [SerializeField] public float requirement2;
+    public Button Upgrade3;
+    [SerializeField] public float requirement3;
 
     public GameObject PlayerInteractable;
     
@@ -57,8 +59,8 @@ public class GameDirector : MonoBehaviour
         {
             Upgrade1.interactable = true;
         }
-
-        // Upgrade 2 Button
+        
+        //upgrade 2 Button
         if (Money < requirement2)
         {
             Upgrade2.interactable = false;
@@ -66,10 +68,17 @@ public class GameDirector : MonoBehaviour
         else
         {
             Upgrade2.interactable = true;
+        }       
+        
+        //upgrade 3 button
+        if (Money < requirement3)
+        {
+            Upgrade3.interactable = false;
         }
-
-        
-        
+        else
+        {
+            Upgrade3.interactable = true;
+        }           
     }
 
 

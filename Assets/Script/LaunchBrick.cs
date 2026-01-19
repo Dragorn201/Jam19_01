@@ -24,12 +24,30 @@ public class LaunchBrick : MonoBehaviour
     public GameObject JaugetoDisappear;
     
     
+    //Upgrade Images
+    public GameObject Hand;
+    public GameObject Thrower;
+    public GameObject Catapult;
+    public GameObject Bazooka;
+    
+    //Upgrade Buttons
+    public GameObject HAND_BouttonUpgrade;
+    public GameObject THROWER_BouttonUpgrade;
+    public GameObject CATAPULT_BouttonUpgrade;
+    public GameObject BAZOOKA_BouttonUpgrade;
+    
+    
 
     void Start()
     {
         startPos = transform.position;
         Debug.Log(startPos);
         impulseForce = impulseForceBasic;
+        
+        Thrower.SetActive(false);
+        Catapult.SetActive(false);
+        Bazooka.SetActive(false);
+        
     }
     
     void Update()
@@ -80,19 +98,55 @@ public class LaunchBrick : MonoBehaviour
     }
 
 
-    public void UpgradeImpulse()
+    public void UpgradeImpulse1()
     {
-        impulseForceBasic += 10f;
+
+            Thrower.SetActive(true);
+            Hand.SetActive(false);
+            impulseForceBasic += 10f;
+            impulseForce = impulseForceBasic;
+            jaugeTime *= 0.8f;
+            maxForce += 5;
+            _gameDirector.Money -= _gameDirector.requirement1;
+            _gameDirector.MoneyText.text = _gameDirector.Money.ToString();
+            THROWER_BouttonUpgrade.SetActive(true);
+            HAND_BouttonUpgrade.SetActive(false);
+
+    }
+
+    public void UpgradeImpulse2()
+    {
+        Catapult.SetActive(true);
+        Thrower.SetActive(false);
+        impulseForceBasic += 20f;
         impulseForce = impulseForceBasic;
         jaugeTime *= 0.8f;
-        Debug.Log(impulseForce);
-        Debug.Log(_gameDirector.Money);
-        _gameDirector.Money -= _gameDirector.requirement1;
-        _gameDirector.MoneyText.text = _gameDirector.Money.ToString();
-        maxForce += 5;
-        Debug.Log(maxForce);
+        maxForce += 10;
         _gameDirector.Money -= _gameDirector.requirement2;
-        _gameDirector.MoneyText.text = _gameDirector.Money.ToString();
+        _gameDirector.MoneyText.text = _gameDirector.Money.ToString();    
+        CATAPULT_BouttonUpgrade.SetActive(true);
+        THROWER_BouttonUpgrade.SetActive(false);
+        
+        
     }
+
+    public void UpgradeImpulse3()
+    {
+        Bazooka.SetActive(true);
+        Catapult.SetActive(false);
+        impulseForceBasic += 30f;
+        impulseForce = impulseForceBasic;
+        jaugeTime *= 0.8f;
+        maxForce += 15;
+        _gameDirector.Money -= _gameDirector.requirement3;
+        _gameDirector.MoneyText.text = _gameDirector.Money.ToString(); 
+        BAZOOKA_BouttonUpgrade.SetActive(true);
+        CATAPULT_BouttonUpgrade.SetActive(false);
+        
+        
+    }
+
+            
+
     
 }
