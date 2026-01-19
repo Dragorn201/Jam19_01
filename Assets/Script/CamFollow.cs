@@ -15,6 +15,6 @@ public class CamFollow : MonoBehaviour
     
     void Update()
     {
-        cam.transform.position = Vector3.Lerp(cam.transform.position, toFollow.transform.position+ offset, 1.8f);
+        cam.transform.position = Vector3.Lerp(cam.transform.position, toFollow.transform.position+ offset,  Time.deltaTime*5f);
     }
 }

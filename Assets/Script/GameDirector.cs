@@ -24,6 +24,7 @@ public class GameDirector : MonoBehaviour
     public GameObject MainMenuUI;
     public GameObject LevelSelectionUI;
     public GameObject GameCanvaUI;
+    public GameObject UILvl1;
     
 
     //Button
@@ -109,20 +110,24 @@ public class GameDirector : MonoBehaviour
     }
 
     
-
+    /// UI Related ///
+    
     public void goToLevelSelection()
     {
         MainMenuUI.SetActive(false);
         LevelSelectionUI.SetActive(true);
     }
+
+    public void displayStartGamePanel()
+    {
+        UILvl1.SetActive(true);
+    }
     
     public void StartGame()
     {
         LevelSelectionUI.SetActive(false);
+        UILvl1.SetActive(false);
         GameCanvaUI.SetActive(true);
         PlayerInteractable.SetActive(true);
     }
-    
-    
-
 }
