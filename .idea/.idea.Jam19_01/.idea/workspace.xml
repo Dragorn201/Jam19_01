@@ -6,16 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d44b289a-d09b-4de1-a5c2-b860f7aff2d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam19_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam19_01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Sombong Amat SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Sombong Amat SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CamFollow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CamFollow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/FPControler/FPController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/FPControler/FPController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameDirector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameDirector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/LaunchBrick.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/LaunchBrick.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EntitiesClientSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EntitiesClientSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/EventDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EventDirector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/eventModifier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/eventModifier.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1768820077328</updated>
       <workItem from="1768820079594" duration="20560000" />
-      <workItem from="1768901866337" duration="16373000" />
+      <workItem from="1768901866337" duration="19760000" />
     </task>
     <servers />
   </component>
