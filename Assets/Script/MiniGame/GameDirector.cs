@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameDirector : MonoBehaviour
@@ -48,7 +49,11 @@ public class GameDirector : MonoBehaviour
         Scoring = Mathf.Floor(Scoring);
         
         ScoreText.text = Scoring.ToString();
-        
+
+        if (Scoring > 800)
+        {
+            SceneManager.LoadScene("MainGame");
+        }
 
 
         // Upgrade 1 Button
@@ -93,7 +98,7 @@ public class GameDirector : MonoBehaviour
         }
         
         //Assign Money
-        Money += Scoring / 10f;
+        Money += Mathf.Floor(Scoring / 10f);
         MoneyText.text = Money.ToString();
         
         // Restart Brick Position and rotation
@@ -102,6 +107,7 @@ public class GameDirector : MonoBehaviour
         launchBrick.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionZ;
         launchBrick.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
         launchBrick.GetComponent<Rigidbody>().useGravity = false;
+        launchBrick.brickFlying = false;
         
         // Manipulate UI
         RestartUI.SetActive(false);

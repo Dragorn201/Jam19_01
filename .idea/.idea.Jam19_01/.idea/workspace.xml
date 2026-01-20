@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d44b289a-d09b-4de1-a5c2-b860f7aff2d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam19_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam19_01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/EventDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EventDirector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/eventModifier.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/eventModifier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Sombong Amat SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Sombong Amat SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MiniGame/GameDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MiniGame/GameDirector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MiniGame/LaunchBrick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MiniGame/LaunchBrick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1768820077328</updated>
       <workItem from="1768820079594" duration="20560000" />
-      <workItem from="1768901866337" duration="19760000" />
+      <workItem from="1768901866337" duration="22396000" />
     </task>
     <servers />
   </component>
