@@ -147,6 +147,7 @@ public class TimelineDirector : MonoBehaviour
         VitoDead.SetActive(true);
         johnatanStart.SetActive(false);
         johnatanFinal.SetActive(true);
-        }
+        EventDirector.currentObjective.text = EventDirector.objective[13];
+    }
     
 }
