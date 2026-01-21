@@ -118,6 +118,7 @@ public class LaunchBrick : MonoBehaviour
             THROWER_BouttonUpgrade.SetActive(true);
             HAND_BouttonUpgrade.SetActive(false);
             UpgradeCostText.text = "50";
+            audioManager.Instance.PlaySfxClip(1);
 
     }
 
@@ -133,7 +134,8 @@ public class LaunchBrick : MonoBehaviour
         _gameDirector.MoneyText.text = _gameDirector.Money.ToString();    
         CATAPULT_BouttonUpgrade.SetActive(true);
         THROWER_BouttonUpgrade.SetActive(false);
-        UpgradeCostText.text = "75";      
+        UpgradeCostText.text = "75";     
+        audioManager.Instance.PlaySfxClip(1);
         
     }
 
@@ -151,6 +153,7 @@ public class LaunchBrick : MonoBehaviour
         CATAPULT_BouttonUpgrade.SetActive(false);
         UpgradeCostText.text = ""; 
         coinIcon.SetActive(false);
+        audioManager.Instance.PlaySfxClip(1);
         
         
     }

@@ -37,9 +37,14 @@ public class GameDirector : MonoBehaviour
     [SerializeField] public float requirement3;
 
     public GameObject PlayerInteractable;
-    
-    
 
+
+
+    void Start()
+    {
+        audioManager.Instance.PlayMusicClip(0);
+    }
+    
     private void Update()
     {
         
@@ -135,5 +140,10 @@ public class GameDirector : MonoBehaviour
         UILvl1.SetActive(false);
         GameCanvaUI.SetActive(true);
         PlayerInteractable.SetActive(true);
+    }
+
+    public void UIsound()
+    {
+        audioManager.Instance.PlaySfxClip(0);
     }
 }
