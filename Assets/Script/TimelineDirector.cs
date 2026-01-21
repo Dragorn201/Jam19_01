@@ -17,6 +17,9 @@ public class TimelineDirector : MonoBehaviour
     public GameObject BlackScreen;
 
     //Dispute
+    public GameObject Mayor;
+    public GameObject Claudette;
+    
     public GameObject KrapotStart;
     public GameObject MichelStart;
     public GameObject Michel2;
@@ -37,6 +40,15 @@ public class TimelineDirector : MonoBehaviour
     public GameObject MariaSpeakZone;
     public GameObject BerangereDie;
     public GameObject BerangereDead;
+    public GameObject KrapotMort;
+    public GameObject KrapottoKill;
+    public GameObject MichelMort;
+    public GameObject MicheltoKill;
+    public GameObject VitoSpawn;
+    public GameObject VitoDead;
+
+    public GameObject johnatanStart;
+    public GameObject johnatanFinal;
 
 
     void Start()
@@ -69,6 +81,8 @@ public class TimelineDirector : MonoBehaviour
 
     public void declencheDispute()
     {
+        Mayor.SetActive(false);
+        Claudette.SetActive(false);
         KrapotStart.SetActive(false);
         MichelStart.SetActive(false);
         Krapot2Spawn.SetActive(true);
@@ -77,6 +91,7 @@ public class TimelineDirector : MonoBehaviour
         
         JennaToDisappear.SetActive(false);
         BernouilleToDisappear.SetActive(false);
+        EventDirector.currentObjective.text = EventDirector.objective[10];
     }
 
     public void KrapotSpeak()
@@ -98,6 +113,7 @@ public class TimelineDirector : MonoBehaviour
     public void restartDispute()
     {
         disputeDeclencheur.SetActive(false);
+        EventDirector.currentObjective.text = EventDirector.objective[11];
     }
 
 
@@ -116,9 +132,21 @@ public class TimelineDirector : MonoBehaviour
         Maria4.SetActive(false);
         MariaDead.SetActive(true);
         MariaSpeakZone.SetActive(false);
-        
-        
+        EventDirector.currentObjective.text = EventDirector.objective[12];
+        MicheltoKill.SetActive(false);
+        MichelMort.SetActive(true);
+        KrapotMort.SetActive(true);
+        KrapottoKill.SetActive(false);
+        VitoSpawn.SetActive(true);
     }
-    
+
+    public void VitoDie()
+    {
+        StartCoroutine(waitBlackScreen());
+        VitoSpawn.SetActive(false);
+        VitoDead.SetActive(true);
+        johnatanStart.SetActive(false);
+        johnatanFinal.SetActive(true);
+        }
     
 }

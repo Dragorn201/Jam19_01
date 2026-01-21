@@ -119,6 +119,7 @@ public class EventDirector : MonoBehaviour
         if (BerangereBool && MichelBool && JennaBool && KrapotBool && Mission5done == false)
         {
             Mission5 = true;
+            currentObjective.text = objective[9];
             Mission5done = true;
         }
         
@@ -161,6 +162,8 @@ public class EventDirector : MonoBehaviour
         journalTaskList.text = "";
         journalTaskList.text = journalTaskList.text +  "\n" + currentObjective.text;
     }
+    
+    
     
     public void SpeakToClaudette()
     { Claudette = true; }

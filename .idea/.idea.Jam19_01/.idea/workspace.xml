@@ -10,7 +10,6 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/EventDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EventDirector.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/TimelineDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TimelineDirector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/TriggerZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TriggerZone.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +21,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/Dialogue/DialogueSysteme.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/eventModifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@aa507f3228f0/Editor/UGUI/UI/CanvasScalerEditor.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -108,7 +107,7 @@
       <updated>1768820077328</updated>
       <workItem from="1768820079594" duration="20560000" />
       <workItem from="1768901866337" duration="22681000" />
-      <workItem from="1768986712757" duration="20285000" />
+      <workItem from="1768986712757" duration="22662000" />
     </task>
     <servers />
   </component>

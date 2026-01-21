@@ -57,7 +57,7 @@ public class GameDirector : MonoBehaviour
 
         if (Scoring > 800)
         {
-            SceneManager.LoadScene("MainGame");
+            SceneManager.LoadScene("Transtition");
         }
 
 
