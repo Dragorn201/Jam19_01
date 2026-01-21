@@ -7,7 +7,7 @@ public class TriggerZone : MonoBehaviour
     public SC_FPSController fpController;
     public DialogueSysteme dialogueSystem;
     public DialogueSysteme optionnalDialogueSystem;
-    public DialogueSysteme optionnalDialogueSystem2;
+    public bool dispute = false;
     public TimelineDirector timelineDirector;
     
     private void OnTriggerEnter(Collider other)
@@ -17,7 +17,7 @@ public class TriggerZone : MonoBehaviour
         Cursor.visible = true;
 
         fpController.walkingSpeed = 0f;
-        
+        audioManager.Instance.PlaySfxClip(3);
         dialogueSystem.dialogues[0].SetActive(true);
         dialogueSystem.Canva.SetActive(true);
 
@@ -25,7 +25,10 @@ public class TriggerZone : MonoBehaviour
         {
             //optionnalDialogueSystem.dialogues[0].SetActive(true);
             optionnalDialogueSystem.Canva.SetActive(true);
-            optionnalDialogueSystem2.Canva.SetActive(true);
+            if (dispute)
+            {
+                audioManager.Instance.PlaySfxClip(6);
+            }
             
         }
         

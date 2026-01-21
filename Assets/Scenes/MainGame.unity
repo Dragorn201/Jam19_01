@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Pendant tout ce temps j\u2019ai essay\xE9 de la prot\xE9ger,"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -436,7 +436,7 @@ MonoBehaviour:
   fpController: {fileID: 540633860}
   dialogueSystem: {fileID: 1755141665}
   optionnalDialogueSystem: {fileID: 618449555}
-  optionnalDialogueSystem2: {fileID: 0}
+  dispute: 1
   timelineDirector: {fileID: 0}
 --- !u!65 &11225182
 BoxCollider:
@@ -728,6 +728,99 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48846733}
   m_CullTransparentMesh: 1
+--- !u!1001 &54593886
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1664121063}
+    m_Modifications:
+    - target: {fileID: -9099915131888599744, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 15.149559
+      objectReference: {fileID: 0}
+    - target: {fileID: -9099915131888599744, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15.149559
+      objectReference: {fileID: 0}
+    - target: {fileID: -9099915131888599744, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15.149559
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.34
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.3400002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.3400002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.980001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.0699997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3800001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1010482332952178815, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8b9c063f262cbb24f8006be11be44b27, type: 2}
+    - target: {fileID: -1010482332952178815, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8b9c063f262cbb24f8006be11be44b27, type: 2}
+    - target: {fileID: 919132149155446097, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+      propertyPath: m_Name
+      value: Frank
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
 --- !u!1 &56730656
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,8 +880,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Michel Grenouille
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1538,8 +1631,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ma fonction principale est d\u2019\xEAtre Maire \xE0 MareCity."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1674,8 +1767,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: " Y\u2019a plus de saison mon bon monsieur \xE7a je vous le dis. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1810,8 +1903,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "CETTE ESP\xC8CE DE-"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1887,6 +1980,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111225381}
   m_CullTransparentMesh: 1
+--- !u!1 &129197576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 129197577}
+  m_Layer: 0
+  m_Name: Dispute
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &129197577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129197576}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.73, y: 1.74, z: -17.63}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1755141670}
+  - {fileID: 715181553}
+  - {fileID: 618449560}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &147802306
 GameObject:
   m_ObjectHideFlags: 0
@@ -2345,8 +2472,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Parce que moi oui, c'\xE9tait mon meilleur ami\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2624,8 +2751,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Je dois y aller. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2760,8 +2887,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xC0 la revoyure mon gar\xE7on !"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2896,8 +3023,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xC9lever un b\xE9b\xE9 seul, \xE7a doit \xEAtre difficile\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3033,8 +3160,8 @@ MonoBehaviour:
   m_text: "Mais ce que je pr\xE9f\xE9rais c'\xE9tait de passer devant le stand de
     John le couturier. \r\nAh John qu\u2019est ce qu\u2019il \xE9tait beau\u2026\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3967,8 +4094,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Toutes mes condol\xE9ances."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4236,8 +4363,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xAB Tr\xE8s proches \xBB."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4372,8 +4499,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Vous me faites penser \xE0 un acteur connu durant ma jeunesse."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4508,8 +4635,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Putain qu\u2019est ce que je fous ici moi\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4777,8 +4904,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ah oui vous vouliez parler de Frank\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5179,8 +5306,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Chuis en couple avec Jenna, c\u2019est ma ptite meuf ok ? "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5448,8 +5575,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Lui et Michel\u2026 Ils \xE9taient\u2026 comment dire\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5725,8 +5852,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Bah voil\xE0, pas besoin d\u2019en faire tout un truc."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5995,8 +6122,8 @@ MonoBehaviour:
   m_text: "Je le connaissais bien, c'\xE9tait un chouette voisin ma foi, il \xE9tait
     cordial et m\u2019aidait tout le temps \xE0 retrouver mes lunettes. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6131,8 +6258,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Jamais j\u2019aurai fait \xE7a au pruneau de mon \u0153il."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6341,6 +6468,114 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385537583}
   m_CullTransparentMesh: 1
+--- !u!1 &406225368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 406225372}
+  - component: {fileID: 406225371}
+  - component: {fileID: 406225370}
+  - component: {fileID: 406225369}
+  m_Layer: 0
+  m_Name: BERANGEREDEADPLACEHOLDER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &406225369
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406225368}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &406225370
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406225368}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 371de3777a7e36d4b959b350033fba72, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &406225371
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406225368}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &406225372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406225368}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.8984119, z: -0, w: 0.43915376}
+  m_LocalPosition: {x: 0.56, y: 1.74, z: -17.98}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -127.9, z: 0}
 --- !u!1 &408011272
 GameObject:
   m_ObjectHideFlags: 0
@@ -6654,8 +6889,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Merde\u2026 Merde, merde !"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7024,6 +7259,18 @@ PrefabInstance:
       propertyPath: m_text
       value: "Qu\u2019est ce qu\u2019il y a ?"
       objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4529152492675765992, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -7170,7 +7417,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 229}
+  m_AnchoredPosition: {x: -115, y: 229}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &426961441
@@ -7195,8 +7442,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "B\xE9rang\xE8re Grenouille"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7220,8 +7467,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7258,7 +7505,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -235.32216, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7331,8 +7578,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Je voulais tirer sur Michel\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7705,6 +7952,18 @@ PrefabInstance:
       propertyPath: m_text
       value: "Oh pur\xE9e mon Frank\u2026"
       objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4529152492675765992, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -7819,6 +8078,11 @@ GameObject:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4765801983386836404, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
   m_PrefabInstance: {fileID: 438502960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &440278667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4529152492675765992, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+  m_PrefabInstance: {fileID: 757948522}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &446198530
 GameObject:
@@ -8012,8 +8276,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PARCE QUE TU ES RACISTE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8538,7 +8802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 214}
+  m_AnchoredPosition: {x: -18.8, y: 214}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &542536292
@@ -8563,8 +8827,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Maire de Marecity
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8588,8 +8852,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8626,7 +8890,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -118.1241, y: 0, z: 0, w: 0}
+  m_margin: {x: -118.1241, y: 0, z: -85.95832, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8989,8 +9253,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Ah oui Frank ! '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9524,8 +9788,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Elle semblait si heureuse avec lui. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9660,8 +9924,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "D\u2019ailleurs je ne sais pas o\xF9 elles sont pass\xE9es\u2026 "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10062,8 +10326,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: BOUH LE RACISTE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10332,8 +10596,8 @@ MonoBehaviour:
   m_text: "Tout le monde sait que tu n\u2019es pas une grenouille, et que les crapauds
     kidnappent les jeunes grenouillettes pour leur retourner le cerveau ! "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10415,7 +10679,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 129197577}
     m_Modifications:
     - target: {fileID: 1861437160256819695, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_Name
@@ -10423,19 +10687,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1861437160256819695, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.73
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.74
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.63
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10511,7 +10775,7 @@ PrefabInstance:
       objectReference: {fileID: 235894122}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -10541,6 +10805,18 @@ PrefabInstance:
       propertyPath: m_text
       value: "Je sais que c\u2019est toi qui a dit \xE0 ta fille de partir esp\xE8ce
         de connard. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4365888353486498915, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_IsActive
@@ -10733,8 +11009,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Personne a vu que t\u2019etais un putain de d\xE9t\xE9ctive a la con."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10874,8 +11150,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Je me dois de r\xE9tablir la v\xE9rit\xE9 aupr\xE8s de ma s\u0153ur\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11494,7 +11770,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 129197577}
     m_Modifications:
     - target: {fileID: 1861437160256819695, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_Name
@@ -11502,19 +11778,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1861437160256819695, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.39
+      value: 4.6600003
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.74
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.69
+      value: -0.060001373
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11626,10 +11902,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
@@ -11637,7 +11917,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1027016325}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1027016325}
+    - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
@@ -11645,11 +11933,23 @@ PrefabInstance:
       value: restartDispute
       objectReference: {fileID: 0}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: MariaDepression
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: TimelineDirector, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: TimelineDirector, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
@@ -11659,6 +11959,18 @@ PrefabInstance:
     - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_margin.z
       value: -74.30037
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4365888353486498915, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_IsActive
@@ -11805,6 +12117,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4365888353486498915, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
   m_PrefabInstance: {fileID: 715181546}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &715181553 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+  m_PrefabInstance: {fileID: 715181546}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &716224160
 GameObject:
   m_ObjectHideFlags: 0
@@ -11864,8 +12181,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "NAN J\u2019DECONNE !"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12000,8 +12317,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Maria Grenouille
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12146,8 +12463,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ouais c\u2019est bon Frank est mort."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12239,6 +12556,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2020379340247478409, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.19
@@ -12309,7 +12630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2597619434866412924, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: dialogues.Array.size
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2597619434866412924, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: 'dialogues.Array.data[0]'
@@ -12335,6 +12656,14 @@ PrefabInstance:
       propertyPath: 'dialogues.Array.data[5]'
       value: 
       objectReference: {fileID: 583692527}
+    - target: {fileID: 2597619434866412924, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: 'dialogues.Array.data[6]'
+      value: 
+      objectReference: {fileID: 1006464513}
+    - target: {fileID: 2597619434866412924, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: 'dialogues.Array.data[7]'
+      value: 
+      objectReference: {fileID: 485144031}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: 0
@@ -12350,18 +12679,18 @@ PrefabInstance:
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 2066564256}
+      objectReference: {fileID: 1027016325}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Mission1Done
+      value: MariaDie
       objectReference: {fileID: 0}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: EventDirector, Assembly-CSharp
+      value: TimelineDirector, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2621290837982560778, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -12375,9 +12704,33 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: -40.448532
       objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_text
       value: Oh mon dieu.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5390766386908151098, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: fpController
@@ -12386,6 +12739,18 @@ PrefabInstance:
     - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_text
       value: "Qu\u2019est ce que je viens de faire\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6384722165362451306, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -12410,6 +12775,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 1522769089}
     - targetCorrespondingSourceObject: {fileID: 4765801983386836404, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       insertIndex: 0
       addedObject: {fileID: 1163027956}
@@ -12540,8 +12908,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Et ma femme l\xE0 qui cause \xE0 tout le monde\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13174,6 +13542,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2020379340247478409, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.19
@@ -13334,9 +13706,33 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: -40.448532
       objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_text
       value: "Je suis desolee toute la famille n\u2019\xE9tait pas encore arriv\xE9e."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5390766386908151098, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: fpController
@@ -13348,6 +13744,18 @@ PrefabInstance:
         des pistes.
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6384722165362451306, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -13372,6 +13780,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 1261155451}
     - targetCorrespondingSourceObject: {fileID: 4765801983386836404, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       insertIndex: 0
       addedObject: {fileID: 723702623}
@@ -13400,6 +13811,11 @@ GameObject:
 --- !u!1 &831812758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4365888353486498915, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+  m_PrefabInstance: {fileID: 831812753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &831812767 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
   m_PrefabInstance: {fileID: 831812753}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &832575517
@@ -13643,8 +14059,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "JAMAIS je n\u2019aurais pu le trahir mon Frank !"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13780,8 +14196,8 @@ MonoBehaviour:
   m_text: "Vous savez de mon temps tous les jeunes comme vous \xE9taient bien coiff\xE9s
     et habill\xE9s."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14185,8 +14601,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "M\u2019enfin pardonnez moi je m\u2019\xE9gare\u2026 "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14322,8 +14738,8 @@ MonoBehaviour:
   m_text: "Eh tranquille mec je d\xE9tend juste l\u2019atmosph\xE8re parce que bon
     l\xE0 c\u2019est pas la joie hein."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14591,8 +15007,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Merci D\xE9tective et bonne chance."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14860,8 +15276,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Oh mis\xE8re ce que je peux \xEAtre simplette parfois ! "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15130,8 +15546,8 @@ MonoBehaviour:
   m_text: "Vous n\u2019aurez aucune information de Jonathan, il n\u2019a pas dit
     un mot depuis la mort de son p\xE8re."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15267,8 +15683,8 @@ MonoBehaviour:
   m_text: "Je m\u2019appelle B\xE9rang\xE8re voici mon\u2026 mari\u2026Michel. \r\nEt
     notre fille Jenna.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15403,8 +15819,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Bernouille est le p\xE8re biologique de Tartare."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15678,8 +16094,8 @@ MonoBehaviour:
   m_text: "Tu veux une info croustillante ? Je vais t\u2019en donner une et tu me
     l\xE2cheras les bottes ok ?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16060,15 +16476,25 @@ MonoBehaviour:
   MariaMission2: {fileID: 831812754}
   MariaMission3: {fileID: 1465259953}
   EventDirector: {fileID: 2066564256}
+  BlackScreen: {fileID: 1267656783}
   KrapotStart: {fileID: 1507756361}
   MichelStart: {fileID: 1720404278}
-  Krapot2: {fileID: 618449558}
   Michel2: {fileID: 1755141664}
+  Michel3: {fileID: 715181547}
   Michel2dialogue: {fileID: 2101095138}
+  Krapot2Spawn: {fileID: 618449554}
+  JennaToDisappear: {fileID: 424730992}
+  BernouilleToDisappear: {fileID: 438502961}
   Michel2dialogueSystem: {fileID: 1755141665}
   Michel3dialogueSystem: {fileID: 715181548}
   Krapot2dialogueSystem: {fileID: 618449555}
   disputeDeclencheur: {fileID: 11225179}
+  Maria3ToDisappear: {fileID: 1465259953}
+  Maria4: {fileID: 757948523}
+  MariaDead: {fileID: 406225368}
+  MariaSpeakZone: {fileID: 440278667}
+  BerangereDie: {fileID: 1725506338}
+  BerangereDead: {fileID: 406225368}
 --- !u!4 &1027016326
 Transform:
   m_ObjectHideFlags: 0
@@ -16143,8 +16569,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pardon excusez-moi.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16415,6 +16841,18 @@ PrefabInstance:
     - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_margin.z
       value: -35.849228
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4377185499523231165, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16717,8 +17155,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "J\u2019AI TU\xC9 MA SOEUR B\xC9RANG\xC8RE !"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16989,8 +17427,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Je suis bien contente qu\u2019il soit mort finalement."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17100,7 +17538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 30, y: 220}
+  m_AnchoredPosition: {x: -19, y: 220}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1089862188
@@ -17125,8 +17563,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Michel Grenouille
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17150,8 +17588,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -17188,7 +17626,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -85.09449, y: 0, z: 0, w: 0}
+  m_margin: {x: -85.09449, y: 0, z: -92.525024, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -17261,8 +17699,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Tu veux qu'j' te dise qui a tu\xE9 Frank ?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17397,8 +17835,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tu le connaissais toi ?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18011,8 +18449,8 @@ MonoBehaviour:
   m_text: "Oh excusez moi j\u2019adorerais continuer cette discussion avec vous mais
     je viens de me rappeler que j\u2019ai un rendez-vous chez le coiffeur."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18147,8 +18585,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Oh putain je crois qu\u2019il m\u2019a entendu."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18283,8 +18721,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Vous \xEAtes le seul qui puisse sauver cette famille."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18498,8 +18936,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Maria Grenouille
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18767,8 +19205,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Mais moi, je savais ce qu\u2019il faisait quand il venait \xE0 la maison\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18875,6 +19313,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1267656786}
   - {fileID: 1793573887}
   - {fileID: 91019562}
   - {fileID: 1556780594}
@@ -19399,6 +19838,96 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: -8, y: -5, z: -8, w: -5}
   m_Softness: {x: 0, y: 0}
+--- !u!1001 &1227373899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1443233065}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.174
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b75f8ef71997b4bb2cf79496e4d78b, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b75f8ef71997b4bb2cf79496e4d78b, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b75f8ef71997b4bb2cf79496e4d78b, type: 2}
+    - target: {fileID: 919132149155446097, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_Name
+      value: Maria (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+--- !u!4 &1227373900 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+  m_PrefabInstance: {fileID: 1227373899}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1229950319
 GameObject:
   m_ObjectHideFlags: 0
@@ -19458,8 +19987,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "C\u2019est de leur faute de toute fa\xE7on,"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19595,8 +20124,8 @@ MonoBehaviour:
   m_text: "Je sais pas ce qui a attir\xE9 Jenna chez lui c\u2019est un putain de
     mytho."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20046,6 +20575,171 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253728802}
   m_CullTransparentMesh: 1
+--- !u!1001 &1261155450
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 831812767}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.174
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b75f8ef71997b4bb2cf79496e4d78b, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b75f8ef71997b4bb2cf79496e4d78b, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b75f8ef71997b4bb2cf79496e4d78b, type: 2}
+    - target: {fileID: 919132149155446097, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_Name
+      value: Maria (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+--- !u!4 &1261155451 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+  m_PrefabInstance: {fileID: 1261155450}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1267656783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1267656786}
+  - component: {fileID: 1267656785}
+  - component: {fileID: 1267656784}
+  m_Layer: 5
+  m_Name: BlackScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1267656784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267656783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1267656785
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267656783}
+  m_CullTransparentMesh: 1
+--- !u!224 &1267656786
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267656783}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1183311945}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1286989522
 GameObject:
   m_ObjectHideFlags: 0
@@ -20482,7 +21176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29, y: 207}
+  m_AnchoredPosition: {x: -40, y: 207}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1307202582
@@ -20507,8 +21201,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tartare Grenouille
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20532,8 +21226,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -20570,7 +21264,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -101.26436, y: 0, z: 0, w: 0}
+  m_margin: {x: -101.26436, y: 0, z: -99.42909, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -20643,8 +21337,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "J\u2019EN SAIS RIEN DU TOUT ALORS FOUS MOI LA PAIX"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20853,6 +21547,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316494170}
   m_CullTransparentMesh: 1
+--- !u!4 &1317850456 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+  m_PrefabInstance: {fileID: 1465259952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1344411147
 GameObject:
   m_ObjectHideFlags: 0
@@ -21015,7 +21714,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344462578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21023,7 +21722,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 220}
+  m_AnchoredPosition: {x: -88, y: 220}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1344462580
@@ -21048,8 +21747,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Krapot Grenouille
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21073,8 +21772,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -21111,7 +21810,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -190.93887, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -21184,8 +21883,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Franck avait ses qualit\xE9s et ses d\xE9fauts."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21458,8 +22157,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Pas touche \xE0 ma gazelle sinon jte tue."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21728,8 +22427,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Y\u2019a un buffet quelque part?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21864,8 +22563,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "J\u2019ai mal vis\xE9\u2026."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22000,8 +22699,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Claudette
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22025,8 +22724,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -22344,8 +23043,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Elles sont sur mes yeux ! '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22613,8 +23312,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pourquoi tu me regardes ?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22706,6 +23405,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc550b8497a51954fba28840c84fdfce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1443233065 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+  m_PrefabInstance: {fileID: 3262045752535792278}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1443751906
 GameObject:
   m_ObjectHideFlags: 0
@@ -23036,8 +23740,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "M\u2019enfin bon\u2026 "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23128,6 +23832,10 @@ PrefabInstance:
     - target: {fileID: 1861437160256819695, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020379340247478409, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23289,9 +23997,33 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: -40.448532
       objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_text
       value: "B\xC9RANG\xC8RE A DIT QUOI ?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5390766386908151098, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: fpController
@@ -23300,6 +24032,18 @@ PrefabInstance:
     - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_text
       value: 'MICHEL A FAIT QUOI AVEC FRANK ? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6384722165362451306, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -23324,6 +24068,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 1664809282}
     - targetCorrespondingSourceObject: {fileID: 4765801983386836404, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       insertIndex: 0
       addedObject: {fileID: 1991862194}
@@ -23444,8 +24191,8 @@ MonoBehaviour:
   m_text: " Je me rappelle quand j\u2019allais au march\xE9, \xE9videmment je prenais
     des l\xE9gumes du fromage et des fleurs."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23521,6 +24268,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465299457}
   m_CullTransparentMesh: 1
+--- !u!4 &1499804493 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d4dbcc26288a252479a7d15fe2f3f8f5, type: 3}
+  m_PrefabInstance: {fileID: 54593886}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1500989865
 GameObject:
   m_ObjectHideFlags: 0
@@ -23547,7 +24299,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500989865}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23555,7 +24307,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 220}
+  m_AnchoredPosition: {x: -99, y: 220}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1500989867
@@ -23580,8 +24332,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Krapot Grenouille
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23605,8 +24357,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -23643,7 +24395,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -184.69713, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -23921,6 +24673,18 @@ PrefabInstance:
     - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_text
       value: Yo mec. Chuis une grenouille.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4529152492675765992, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_IsActive
@@ -24273,6 +25037,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517122139}
   m_CullTransparentMesh: 1
+--- !u!1001 &1522769088
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1632510882}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.174
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b75f8ef71997b4bb2cf79496e4d78b, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b75f8ef71997b4bb2cf79496e4d78b, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b75f8ef71997b4bb2cf79496e4d78b, type: 2}
+    - target: {fileID: 919132149155446097, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_Name
+      value: Maria (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+--- !u!4 &1522769089 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+  m_PrefabInstance: {fileID: 1522769088}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1524815096
 GameObject:
   m_ObjectHideFlags: 0
@@ -24538,6 +25392,18 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Bonjour je suis Monsieur le Maire. '
       objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4529152492675765992, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -24577,7 +25443,7 @@ PrefabInstance:
     - {fileID: 310265226804909803, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4765801983386836404, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
-      insertIndex: -1
+      insertIndex: 0
       addedObject: {fileID: 542536291}
     - targetCorrespondingSourceObject: {fileID: 7887603696787757642, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       insertIndex: -1
@@ -24890,8 +25756,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "T\u2019as jamais voulu qu\u2019elle soit avec moi, "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -25142,7 +26008,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595952340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25150,7 +26016,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31, y: 229}
+  m_AnchoredPosition: {x: 6, y: 229}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1595952342
@@ -25175,8 +26041,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Jenna Grenouille
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -25200,8 +26066,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -25238,7 +26104,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -88.582794, y: 0, z: 0, w: 0}
+  m_margin: {x: -88.582794, y: 0, z: -47.431015, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -25577,8 +26443,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bref, m'en fous si tu veux tout savoir.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -25654,6 +26520,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620609385}
   m_CullTransparentMesh: 1
+--- !u!4 &1632510882 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+  m_PrefabInstance: {fileID: 757948522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1643422197
 GameObject:
   m_ObjectHideFlags: 0
@@ -25713,8 +26584,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Maintenant qu\u2019il est d\xE9c\xE9d\xE9,"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26010,8 +26881,99 @@ Transform:
   - {fileID: 34840517}
   - {fileID: 1344411152}
   - {fileID: 1695338064}
+  - {fileID: 1499804493}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1664809281
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1317850456}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.174
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b75f8ef71997b4bb2cf79496e4d78b, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b75f8ef71997b4bb2cf79496e4d78b, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b75f8ef71997b4bb2cf79496e4d78b, type: 2}
+    - target: {fileID: 919132149155446097, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+      propertyPath: m_Name
+      value: Maria (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+--- !u!4 &1664809282 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 43721be1d2cd776448e9816966b3c5f6, type: 3}
+  m_PrefabInstance: {fileID: 1664809281}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1665908739
 GameObject:
   m_ObjectHideFlags: 0
@@ -26046,7 +27008,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 30, y: 220}
+  m_AnchoredPosition: {x: -23, y: 220}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1665908741
@@ -26071,8 +27033,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Michel Grenouille
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26096,8 +27058,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -26134,7 +27096,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -85.09449, y: 0, z: 0, w: 0}
+  m_margin: {x: -85.09449, y: 0, z: -86.28319, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -26343,8 +27305,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "VIENS TE BATTRE SI T\u2019ES UNE GRENOUILLE !"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26591,6 +27553,18 @@ PrefabInstance:
     - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_margin.z
       value: -74.30037
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4377185499523231165, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26889,6 +27863,18 @@ PrefabInstance:
     - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_margin.z
       value: -41.1567
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4377185499523231165, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27211,8 +28197,8 @@ MonoBehaviour:
     de truc l\xE0 qui se fait passer pour une grenouille alors que je sais tr\xE8s
     bien qu\u2019il fait partie de ceux l\xE0 hein !"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27294,7 +28280,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 129197577}
     m_Modifications:
     - target: {fileID: 1861437160256819695, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_Name
@@ -27302,19 +28288,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1861437160256819695, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.39
+      value: 4.6600003
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.74
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.69
+      value: -0.060001373
       objectReference: {fileID: 0}
     - target: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27460,6 +28446,18 @@ PrefabInstance:
     - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_margin.z
       value: -74.30037
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4377185499523231165, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27615,6 +28613,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4365888353486498915, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
   m_PrefabInstance: {fileID: 1755141663}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1755141670 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+  m_PrefabInstance: {fileID: 1755141663}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1775770870
 GameObject:
   m_ObjectHideFlags: 0
@@ -27675,8 +28678,8 @@ MonoBehaviour:
   m_text: "Vous devriez aller voir Jenna je l\u2019ai perdu de vue depuis tout \xE0
     l\u2019heure\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27811,8 +28814,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Non\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28025,9 +29028,49 @@ PrefabInstance:
       propertyPath: m_text
       value: Gougou gaga.
       objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4529152492675765992, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559886962350997081, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559886962350997081, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559886962350997081, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1027016325}
+    - target: {fileID: 4559886962350997081, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559886962350997081, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: MariaDie
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559886962350997081, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TimelineDirector, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559886962350997081, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_text
@@ -28513,15 +29556,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831947654}
   m_LocalRotation: {x: -0, y: -0.00000004470348, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000028646067}
-  m_LocalScale: {x: 0.9987364, y: 0.9996652, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1.2547125, y: 1.2558794, z: 1.2563}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 726293722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00022220612, y: 237.10004}
+  m_AnchoredPosition: {x: -112, y: 221}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1831947656
@@ -28546,8 +29589,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Maria Grenouille
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28571,8 +29614,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -28609,7 +29652,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -169.04094, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -28682,8 +29725,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Prenez  soin de mes enfants Detective,
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28954,8 +29997,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xC7a m\u2019\xE9tonnerait pas qu\u2019il ait tu\xE9 Frank ce gars l\xE0."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29356,8 +30399,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Et puis je me fais du soucis pour sa femme Maria\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30020,8 +31063,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "J\u2019ai pas confiance en ce type jte jure."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30156,8 +31199,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bernouille
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30181,8 +31224,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -30219,7 +31262,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -10.858917, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -30558,8 +31601,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "TU VAS VOIR C\u2019EST QUI LE RACISTE."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30694,8 +31737,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Rends moi ma fille et retourne dans ton mar\xE9cage qui pue. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30831,8 +31874,8 @@ MonoBehaviour:
   m_text: "Et j\u2019esp\xE8re que Michel conna\xEEtra bient\xF4t le m\xEAme sort
     que Franck, cette ordure de mari."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30968,8 +32011,8 @@ MonoBehaviour:
   m_text: "Il \xE9tait mon meilleur ami, depuis la cr\xE8che qu\u2019on se conna\xEEt
     avec mon Frank."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31237,8 +32280,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "La vie est si injuste\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31373,8 +32416,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Maria Grenouille
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31509,8 +32552,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Et bien la v\xE9rit\xE9\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31646,8 +32689,8 @@ MonoBehaviour:
   m_text: "M\u2019enfin bref je suis bien heureuse de faire votre connaissance jeune
     homme."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31783,8 +32826,8 @@ MonoBehaviour:
   m_text: " Ah le bon vieux temps, mais vous savez maintenant rien n\u2019est plus
     pareil."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31919,8 +32962,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ils sont vraiment tous trop cons les autres.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32188,8 +33231,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bon je vous laisse je vais voir Maria.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32325,8 +33368,8 @@ MonoBehaviour:
   m_text: "J'esp\xE8re que ma s\u0153ur ne m\u2019en voudra pas trop de lui avoir
     cach\xE9 ce lourd secret."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32536,8 +33579,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Arr\xEAte ta com\xE9die je t\u2019ai cram\xE9."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -33076,8 +34119,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Oh\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -33213,8 +34256,8 @@ MonoBehaviour:
   m_text: "Je pense que Frank aurait voulu que je m\u2019occupe d\u2019eux comme
     il l\u2019aurait fait."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -33319,8 +34362,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 708431d411ed084439ca7f6027ef675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sfxClip: []
-  _musicClip: []
+  _sfxClip:
+  - {fileID: 8300000, guid: 7f4354124a17d984c933a329e501130f, type: 3}
+  - {fileID: 8300000, guid: d40c7eb4a52c02c43ae8ab04aca51697, type: 3}
+  - {fileID: 8300000, guid: 39dc45f6626852d4683bcab7346b0010, type: 3}
+  - {fileID: 8300000, guid: 765232a2a2257734ab5d9b0fee3eb9b9, type: 3}
+  - {fileID: 8300000, guid: b360b7360184e90458779280657ddde4, type: 3}
+  - {fileID: 8300000, guid: 64e5dba02b903c24a9bc16a9f9d6037e, type: 3}
+  - {fileID: 8300000, guid: c494a18c163e4e74c9c51067b65bc7af, type: 3}
+  - {fileID: 8300000, guid: e8eb87fb1107a364da5776b713efdc94, type: 3}
+  _musicClip:
+  - {fileID: 8300000, guid: 051dd1994dceed542a7da0ea06964563, type: 3}
+  - {fileID: 8300000, guid: 4675bb8b70404654595d2960ad5ab0f2, type: 3}
+  - {fileID: 8300000, guid: 43d7efb4992bb8a449a04f1afe46623a, type: 3}
   _sfxAudioSource: {fileID: 1384224279}
   _musicAudioSource: {fileID: 1870478374}
 --- !u!4 &2114758471
@@ -33399,8 +34453,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Oh non je suis si triste.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+  m_sharedMaterial: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -33487,6 +34541,14 @@ PrefabInstance:
     - target: {fileID: 1861437160256819695, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_Name
       value: MariaGrenouille1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861437160256819695, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020379340247478409, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2356313288546469955, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -33660,9 +34722,33 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: -40.448532
       objectReference: {fileID: 0}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 2772197101808774308, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_text
       value: "J\u2019espere que vous trouverez qui a tu\xE9 mon adorable \xE9poux. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5248443548611578318, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5390766386908151098, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: fpController
@@ -33671,12 +34757,23 @@ PrefabInstance:
     - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_text
       value: "Pour vous aider voici une repr\xE9sentation de notre arbre g\xE9n\xE9alogique.
-        \nFaites en bon usage, et surtout restez discret. (Appuyez sur J \xE0 tout
-        moment)"
+        \nFaites en bon usage, et surtout restez discret."
       objectReference: {fileID: 0}
     - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_margin.z
       value: -178.01915
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8632647257245828843, guid: a54c3b16033e4fe4a9124094ab797bf7, type: 2}
+    - target: {fileID: 5985615807203667372, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6384722165362451306, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -33701,6 +34798,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2412741501115558447, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 1227373900}
     - targetCorrespondingSourceObject: {fileID: 4765801983386836404, guid: 45d26cbfd0764744583c0055e7842be5, type: 3}
       insertIndex: 0
       addedObject: {fileID: 1831947655}
@@ -33793,6 +34893,5 @@ SceneRoots:
   - {fileID: 1507756360}
   - {fileID: 424730991}
   - {fileID: 1720404277}
-  - {fileID: 1755141663}
-  - {fileID: 715181546}
-  - {fileID: 618449553}
+  - {fileID: 129197577}
+  - {fileID: 406225372}

@@ -51,6 +51,8 @@ public class EventDirector : MonoBehaviour
     {
         currentObjective.text = objective[0];
         journalTaskList.text = currentObjective.text;
+        audioManager.Instance.PlayMusicClip(1);
+        audioManager.Instance.PlayMusicClip(2);
 
     }
     
@@ -66,6 +68,7 @@ public class EventDirector : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
                 controller.walkingSpeed = 0f;
+                audioManager.Instance.PlaySfxClip(4);
             }
             else
             {
@@ -75,6 +78,7 @@ public class EventDirector : MonoBehaviour
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
                 controller.walkingSpeed = 7.5f;
+                audioManager.Instance.PlaySfxClip(4);
             }
         }
 
@@ -89,6 +93,7 @@ public class EventDirector : MonoBehaviour
                 Cursor.visible = true;
                 Debug.Log("Cursor");
                 controller.walkingSpeed = 0f;
+                audioManager.Instance.PlaySfxClip(4);
             }
             else
             {
@@ -98,6 +103,7 @@ public class EventDirector : MonoBehaviour
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
                 controller.walkingSpeed = 7.5f;
+                audioManager.Instance.PlaySfxClip(4);
             }
         }
         
