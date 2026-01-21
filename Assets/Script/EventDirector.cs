@@ -11,10 +11,12 @@ public class EventDirector : MonoBehaviour
     public TMPro.TextMeshProUGUI journalTaskList;
     public GameObject ArbreUI;
     
+    
     public GameObject SpeakZoneClaudette;
     public GameObject SpeakZoneBernouille;
     public GameObject SpeakZoneTartare;
     public GameObject SpeakZoneMayor;
+    
     
     public GameObject Berangere;
     public GameObject Michel;
