@@ -7,10 +7,56 @@
     <list default="true" id="d44b289a-d09b-4de1-a5c2-b860f7aff2d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam19_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam19_01/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fonts/Sombong Amat SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Sombong Amat SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/MiniGame/GameDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MiniGame/GameDirector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/MiniGame/LaunchBrick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MiniGame/LaunchBrick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Capture d'écran 2026-01-20 103509.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Capture d'écran 2026-01-20 103509.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Capture d'écran 2026-01-20 103526.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Capture d'écran 2026-01-20 103526.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Capture d'écran 2026-01-20 110432.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Capture d'écran 2026-01-20 110432.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/FOND.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/FOND.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/FondTemporary.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/FondTemporary.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/TITRE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/TITRE.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/acheté.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/acheté.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/bazooka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/bazooka.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/bloqué.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/bloqué.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/brique.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/brique.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/cadre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/cadre.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/catapulte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/catapulte.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/coin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/coin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/degradé.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/degradé.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/fake level.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/fake level.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/fake menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/fake menu.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/fleche.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/fleche.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/hand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/jauge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/jauge.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/lance pierre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/lance pierre.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/options.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/play.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/retry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/retry.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/EventDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EventDirector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/TimelineDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TimelineDirector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +153,8 @@
       <option name="presentableId" value="Default" />
       <updated>1768820077328</updated>
       <workItem from="1768820079594" duration="20560000" />
-      <workItem from="1768901866337" duration="22396000" />
+      <workItem from="1768901866337" duration="22681000" />
+      <workItem from="1768986712757" duration="4594000" />
     </task>
     <servers />
   </component>

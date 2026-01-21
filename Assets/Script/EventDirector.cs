@@ -9,6 +9,7 @@ public class EventDirector : MonoBehaviour
     public GameObject disappearObjective;
     public GameObject journalUI;
     public TMPro.TextMeshProUGUI journalTaskList;
+    public GameObject ArbreUI;
     
     public GameObject SpeakZoneClaudette;
     public GameObject SpeakZoneBernouille;
@@ -20,23 +21,35 @@ public class EventDirector : MonoBehaviour
     public GameObject Jenna;
     public GameObject Krapot;
     
+    public SC_FPSController controller;
+    
     
     //InternalResources
     public List<string> objective;
     
     //InternalBooleans
-    private bool isJournal = false;
+    private bool isJournal = true;
+    private bool isArbre = true;
     private bool Claudette = false;
     private bool Bernouille = false;
     private bool Tartare = false;
     private bool Mayor = false;
-    [SerializeField] public bool Mission2 = false;
+
+    private bool BerangereBool = false;
+    private bool MichelBool = false;
+    private bool JennaBool = false;
+    private bool KrapotBool = false;
     
+    [SerializeField] public bool Mission2 = false;
+    private bool Mission1done = false;
+    [SerializeField] public bool Mission5 = false; 
+    private bool Mission5done = false;
 
     void Start()
     {
         currentObjective.text = objective[0];
         journalTaskList.text = currentObjective.text;
+
     }
     
     void Update()
@@ -50,6 +63,7 @@ public class EventDirector : MonoBehaviour
                 disappearObjective.SetActive(false);
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
+                controller.walkingSpeed = 0f;
             }
             else
             {
@@ -58,13 +72,46 @@ public class EventDirector : MonoBehaviour
                 disappearObjective.SetActive(true);
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
+                controller.walkingSpeed = 7.5f;
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            if (isArbre)
+            {
+                ArbreUI.SetActive(true);
+                isArbre = false;
+                disappearObjective.SetActive(false);
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                Debug.Log("Cursor");
+                controller.walkingSpeed = 0f;
+            }
+            else
+            {
+                ArbreUI.SetActive(false);
+                isArbre = true;
+                disappearObjective.SetActive(true);
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+                controller.walkingSpeed = 7.5f;
+            }
+        }
+        
 
-        if (Claudette && Bernouille && Tartare && Mayor)
+
+        if (Claudette && Bernouille && Tartare && Mayor && Mission1done== false)
         {
             Mission2 = true;
+            Mission2Done();
+            Mission1done = true;
+        }
+
+        if (BerangereBool && MichelBool && JennaBool && KrapotBool && Mission5done == false)
+        {
+            Mission5 = true;
+            Mission5done = true;
         }
         
         
@@ -88,6 +135,24 @@ public class EventDirector : MonoBehaviour
         currentObjective.text = currentObjective.text + "\n" + objective[3];
         journalTaskList.text = journalTaskList.text +  "\n" + currentObjective.text;
     }
+
+    public void Mission2Done()
+    {
+        currentObjective.text = "";
+        currentObjective.text = objective[4];
+        journalTaskList.text = journalTaskList.text +  "\n" + currentObjective.text;
+    }
+
+    public void Mission3Done()
+    {
+        currentObjective.text = "";
+        currentObjective.text = objective[5];
+        currentObjective.text = currentObjective.text + "\n" + objective[6];
+        currentObjective.text = currentObjective.text + "\n" + objective[7];
+        currentObjective.text = currentObjective.text + "\n" + objective[8];
+        journalTaskList.text = "";
+        journalTaskList.text = journalTaskList.text +  "\n" + currentObjective.text;
+    }
     
     public void SpeakToClaudette()
     { Claudette = true; }
@@ -98,6 +163,16 @@ public class EventDirector : MonoBehaviour
     public void SpeakToMayor()
     { Mayor = true; }
 
+    public void SpeakToBerangere()
+    { BerangereBool = true; }
+    public void SpeakToMichel()
+    { MichelBool = true; }
+    public void SpeakToJenna()
+    { JennaBool = true; }
+    public void SpeakToKrapot()
+    { KrapotBool = true; }
+    
+    
 
     public void JennaBerangereMichelSpawn()
     {
