@@ -9,6 +9,7 @@ public class LaunchBrick : MonoBehaviour
     private float keyDownTime = 0f;
     private bool isKeyHeld = false;
     private float jaugeTime = 0.8f;
+    [SerializeField] public bool brickFlying = false;
 
     public float maxForce;
     
@@ -36,6 +37,9 @@ public class LaunchBrick : MonoBehaviour
     public GameObject CATAPULT_BouttonUpgrade;
     public GameObject BAZOOKA_BouttonUpgrade;
     
+    public TMPro.TMP_Text UpgradeCostText;
+    public GameObject coinIcon;
+    
     
 
     void Start()
@@ -47,19 +51,21 @@ public class LaunchBrick : MonoBehaviour
         Thrower.SetActive(false);
         Catapult.SetActive(false);
         Bazooka.SetActive(false);
-        
+        UpgradeCostText.text = "25";
+
     }
     
     void Update()
     {
         endPos = transform.position;
         
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && brickFlying == false)
         {
             UpgradeUI.SetActive(false);
             keyDownTime = Time.time;
             isKeyHeld = true;
-             JaugetoDisappear.SetActive(true);
+            JaugetoDisappear.SetActive(true);
+            brickFlying = true;
         }
 
         if (Input.GetKey(KeyCode.Space))
@@ -111,6 +117,7 @@ public class LaunchBrick : MonoBehaviour
             _gameDirector.MoneyText.text = _gameDirector.Money.ToString();
             THROWER_BouttonUpgrade.SetActive(true);
             HAND_BouttonUpgrade.SetActive(false);
+            UpgradeCostText.text = "50";
 
     }
 
@@ -126,7 +133,7 @@ public class LaunchBrick : MonoBehaviour
         _gameDirector.MoneyText.text = _gameDirector.Money.ToString();    
         CATAPULT_BouttonUpgrade.SetActive(true);
         THROWER_BouttonUpgrade.SetActive(false);
-        
+        UpgradeCostText.text = "75";      
         
     }
 
@@ -134,14 +141,16 @@ public class LaunchBrick : MonoBehaviour
     {
         Bazooka.SetActive(true);
         Catapult.SetActive(false);
-        impulseForceBasic += 30f;
+        impulseForceBasic += 70f;
         impulseForce = impulseForceBasic;
         jaugeTime *= 0.8f;
-        maxForce += 15;
+        maxForce += 30;
         _gameDirector.Money -= _gameDirector.requirement3;
         _gameDirector.MoneyText.text = _gameDirector.Money.ToString(); 
         BAZOOKA_BouttonUpgrade.SetActive(true);
         CATAPULT_BouttonUpgrade.SetActive(false);
+        UpgradeCostText.text = ""; 
+        coinIcon.SetActive(false);
         
         
     }
