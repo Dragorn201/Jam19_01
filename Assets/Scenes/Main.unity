@@ -214,18 +214,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1959194622}
-        m_TargetAssemblyTypeName: GameDirector, Assembly-CSharp
-        m_MethodName: UIsound
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &141790225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3616,18 +3604,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1959194622}
-        m_TargetAssemblyTypeName: GameDirector, Assembly-CSharp
-        m_MethodName: UIsound
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1277396303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5603,7 +5579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Scoring: 0
-  Money: 500
+  Money: 0
   launchBrick: {fileID: 644189156}
   ScoreText: {fileID: 539328895}
   BestScoreText: {fileID: 1618344366}
@@ -5722,18 +5698,6 @@ MonoBehaviour:
       - m_Target: {fileID: 644189156}
         m_TargetAssemblyTypeName: LaunchBrick, Assembly-CSharp
         m_MethodName: UpgradeImpulse2
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1959194622}
-        m_TargetAssemblyTypeName: GameDirector, Assembly-CSharp
-        m_MethodName: UIsound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
