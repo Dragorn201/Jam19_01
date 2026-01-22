@@ -15,6 +15,11 @@ public class TimelineDirector : MonoBehaviour
     public GameObject MariaMission3;
     public EventDirector EventDirector;
     public GameObject BlackScreen;
+    public Camera MainCamera;
+    public Camera EndingCamera;
+    public GameObject EndingCameraObject;
+    public SC_FPSController controller;
+
 
     //Dispute
     public GameObject Mayor;
@@ -53,6 +58,7 @@ public class TimelineDirector : MonoBehaviour
 
     void Start()
     {
+        MainCamera = controller.playerCamera;
     }
 
     IEnumerator waitBlackScreen()
@@ -148,6 +154,14 @@ public class TimelineDirector : MonoBehaviour
         johnatanStart.SetActive(false);
         johnatanFinal.SetActive(true);
         EventDirector.currentObjective.text = EventDirector.objective[13];
+    }
+
+
+    public void Conclusion()
+    {
+        MainCamera.enabled = false;
+        EndingCameraObject.SetActive(true);
+        EndingCamera.enabled = true;
     }
     
 }
