@@ -32,7 +32,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2633687661928092444}
-  - {fileID: 2246267547223778273}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &3074477148351200197
@@ -79,6 +78,8 @@ MonoBehaviour:
   playerCamera: {fileID: 4337299090229084785}
   lookSpeed: 2
   lookXLimit: 45
+  CameraFree: 1
+  characterController: {fileID: 0}
   canMove: 1
 --- !u!1 &2282945669324376404
 GameObject:
@@ -109,11 +110,11 @@ Transform:
   m_GameObject: {fileID: 2282945669324376404}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.64, z: 0}
+  m_LocalPosition: {x: 0, y: 0.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6764612304100786591}
+  m_Father: {fileID: 2633687661928092444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &4337299090229084785
 Camera:
@@ -230,6 +231,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef98a7c3224c6704d976c8bd33dfc59e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  focusTarget: {fileID: 0}
+  focusSpeed: 5
+  zoomFOV: 30
+  zoomSpeed: 5
 --- !u!1 &8931983352640029281
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,7 +266,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2246267547223778273}
   m_Father: {fileID: 6764612304100786591}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6888471457406638355
